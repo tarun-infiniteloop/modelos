@@ -14,3 +14,5 @@
 - Memory graph view
 - Team collaboration
 - Hosted workflows and templates
+---
+← **[Contribute](./contribute.md)**

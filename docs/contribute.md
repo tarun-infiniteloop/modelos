@@ -22,3 +22,5 @@ Install dependencies for each part:
 - Improve docs
 - Write unit tests
 - Add model selector UI
+---
+← **[MCP Schema](./schema.md)**   |   **[Roadmap](./roadmap.md)** →

@@ -19,3 +19,5 @@ modelos log --input "What is AGI?" --model mistral
 ```bash
 modelos export --out my_workflow.mcp.json
 ```
+---
+← **[Home](./index.md)**   |   **[Visual Builder](./visual-builder.md)** →

@@ -18,3 +18,5 @@ A structured format for passing context to agents.
 - Standardize prompt logging
 - Interoperable across tools
 - Enables versioning, eval, and feedback
+---
+← **[Visual Builder](./visual-builder.md)**   |   **[Contribute](./contribute.md)** →

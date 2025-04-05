@@ -23,3 +23,5 @@ ModelOS is an **open agent execution framework** designed for visual workflows, 
 - [MCP Schema](schema.md)
 - [Contribute](contribute.md)
 - [Roadmap](roadmap.md)
+---
+**[CLI SDK](./cli.md)** →

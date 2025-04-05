@@ -22,3 +22,5 @@ Design agent pipelines visually using blocks.
 - Export as `.mcp.json`
 - Load previous sessions
 - Share workflows
+---
+← **[CLI SDK](./cli.md)**   |   **[MCP Schema](./schema.md)** →
