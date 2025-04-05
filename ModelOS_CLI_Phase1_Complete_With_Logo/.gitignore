@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+mcp_logs/
+*.txt
+*.wav
+*.mp3
