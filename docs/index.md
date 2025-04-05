@@ -1,69 +1,25 @@
-# 🧠 ModelOS Documentation
+# 🧠 Welcome to ModelOS
 
-Welcome to the **ModelOS** documentation site.
+ModelOS is an **open agent execution framework** designed for visual workflows, scriptable CLI agents, and model-agnostic integrations (OpenAI, Ollama, etc.).
 
-## 🔍 What is ModelOS?
-
-ModelOS is an open agent execution framework with visual workflow builder, CLI SDK, and backend model orchestration (OpenAI, Ollama, etc.).
+> Build AI workflows like LEGO blocks.
 
 ---
 
-## 🧰 CLI SDK (modelos-cli)
+## 🔧 Components
 
-- Log prompts and completions to MCP schema
-- Run workflows from terminal
-- Integrates with your own models or APIs
-
----
-
-## 🧠 Visual Builder
-
-- Drag-and-drop blocks
-- Connect input, memory, model, output
-- Add advanced nodes like Tool, Eval, ToolEval, EvalEval
-
-### Available Blocks
-
-| Type       | Description |
-|------------|-------------|
-| Input      | User text input |
-| Memory     | Prior memory/context |
-| Model      | AI model (OpenAI, Mistral, etc.) |
-| Output     | Final model response |
-| Tool       | External tool/integration |
-| Eval       | Evaluation logic |
-| EvalEval   | Self-check evaluation |
-| ToolEval   | Tool usage analysis |
+- Visual Workflow Builder
+- CLI SDK
+- MCP Context Schema
+- FastAPI Backend
+- Multi-model Support
 
 ---
 
-## 📄 MCP JSON Format
+## 📚 Docs
 
-```json
-{
-  "user_input": "your question",
-  "model_name": "gpt-4",
-  "temperature": 0.7,
-  "memory": ["prior message"]
-}
-```
-
----
-
-## 🚀 Quickstart
-
-```bash
-# Frontend
-cd modelos-visual-builder
-npm install && npm run dev
-
-# Backend
-cd ModelOS_Backend_With_Ollama
-python3 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-export OPENAI_API_KEY=sk-...
-uvicorn server:app --reload
-```
-
----
-Made with ❤️ by Tarun
+- [CLI SDK](cli.md)
+- [Visual Builder](visual-builder.md)
+- [MCP Schema](schema.md)
+- [Contribute](contribute.md)
+- [Roadmap](roadmap.md)
